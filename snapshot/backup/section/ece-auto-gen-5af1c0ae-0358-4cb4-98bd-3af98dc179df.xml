@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<escenic version="2.0" xmlns="http://xmlns.escenic.com/2009/import">
+    <section unique-name="config.inline" source="ece-auto-gen" sourceid="5af1c0ae-0358-4cb4-98bd-3af98dc179df" name="Inline template" mirror-source="false">
+        <parent source="ece-auto-gen" sourceid="b24035d0-57f7-444e-8bc3-8e85bac6c212" unique-name="config"/>
+        <unique-name>config.inline</unique-name>
+        <directory>config_inline</directory>
+        <section-layout>defaultsection</section-layout>
+        <article-layout>defaultarticle</article-layout>
+    </section>
+</escenic>

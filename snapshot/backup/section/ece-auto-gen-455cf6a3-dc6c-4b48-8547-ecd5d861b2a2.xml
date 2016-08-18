@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<escenic version="2.0" xmlns="http://xmlns.escenic.com/2009/import">
+    <section unique-name="config.default.article" source="ece-auto-gen" sourceid="455cf6a3-dc6c-4b48-8547-ecd5d861b2a2" name="Article templates" mirror-source="false">
+        <parent source="ece-auto-gen" sourceid="159b3360-3506-4756-ab21-2d24c1b1b039" unique-name="config.default"/>
+        <unique-name>config.default.article</unique-name>
+        <directory>config_article</directory>
+        <section-layout>defaultsection</section-layout>
+        <article-layout>defaultarticle</article-layout>
+    </section>
+</escenic>
