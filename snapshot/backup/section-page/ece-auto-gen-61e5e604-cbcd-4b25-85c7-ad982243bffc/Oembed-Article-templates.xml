@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<escenic version="2.0" xmlns="http://xmlns.escenic.com/2009/import">
+    <section-page source="ece-auto-gen" sourceid="61e5e604-cbcd-4b25-85c7-ad982243bffc" unique-name="config.oembed.article" name="Oembed Article templates" layout-name="oembed-config" action="remove">
+        <area name="oembed-config-area">
+            <options>
+                <field name="htmltag">
+                    <value>div</value>
+                </field>
+            </options>
+            <group name="wrapperGroup" label="Wrapper">
+                <area name="wrapperGroup-area">
+                    <options>
+                        <field name="loadingpolicy">
+                            <value>onPage</value>
+                        </field>
+                    </options>
+                </area>
+                <options>
+                    <field name="htmltag">
+                        <value>div</value>
+                    </field>
+                    <field name="referable">false</field>
+                </options>
+            </group>
+        </area>
+    </section-page>
+</escenic>

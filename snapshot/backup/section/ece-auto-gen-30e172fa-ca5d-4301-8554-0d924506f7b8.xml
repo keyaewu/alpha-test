@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<escenic version="2.0" xmlns="http://xmlns.escenic.com/2009/import">
+    <section unique-name="config.oembed.article.type.embedInfographic" source="ece-auto-gen" sourceid="30e172fa-ca5d-4301-8554-0d924506f7b8" name="OembedInfographic page template" mirror-source="false">
+        <parent source="ece-auto-gen" sourceid="61e5e604-cbcd-4b25-85c7-ad982243bffc" unique-name="config.oembed.article"/>
+        <unique-name>config.oembed.article.type.embedInfographic</unique-name>
+        <directory>config_oembed_article_type_embedInfographic</directory>
+        <section-layout>defaultsection</section-layout>
+        <article-layout>defaultarticle</article-layout>
+    </section>
+</escenic>
