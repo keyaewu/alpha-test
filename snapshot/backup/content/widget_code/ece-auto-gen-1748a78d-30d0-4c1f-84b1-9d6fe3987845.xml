@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <escenic version="2.0" xmlns="http://xmlns.escenic.com/2009/import">
     <content source="ece-auto-gen" sourceid="1748a78d-30d0-4c1f-84b1-9d6fe3987845" type="widget_code" state="published">
-        <section-ref unique-name="overlay.qa-site.config.default.article.type.event" home-section="true"/>
+        <section-ref unique-name="config" home-section="true"/>
         <priority value="0"/>
         <field name="title">tezt </field>
         <field name="code">overlay of event article template</field>
