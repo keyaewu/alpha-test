@@ -7,6 +7,14 @@
                     <value>div</value>
                 </field>
             </options>
+            <group name="row" label="Row">
+                <options>
+                    <field name="htmltag">
+                        <value>div</value>
+                    </field>
+                    <field name="referable">false</field>
+                </options>
+            </group>
             <group name="wrapperGroup" label="Wrapper">
                 <area name="wrapperGroup-area">
                     <options>
@@ -27,10 +35,11 @@
                     </content-ref>
                 </area>
                 <options>
+                    <field name="com.escenic.color">#ccccff</field>
                     <field name="htmltag">
                         <value>div</value>
                     </field>
-                    <field name="referable">false</field>
+                    <field name="referable">true</field>
                 </options>
             </group>
         </area>

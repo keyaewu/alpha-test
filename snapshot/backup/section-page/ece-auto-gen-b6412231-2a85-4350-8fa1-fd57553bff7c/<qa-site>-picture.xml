@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<escenic version="2.0" xmlns="http://xmlns.escenic.com/2009/import">
+    <section-page source="ece-auto-gen" sourceid="b6412231-2a85-4350-8fa1-fd57553bff7c" unique-name="overlay.qa-site.config.oembed.article.type.picture" name="&lt;qa-site&gt; picture" layout-name="overlay-config" action="remove">
+        <area name="overlay-config-area">
+            <group name="groupOverlay" label="Wrapper"/>
+        </area>
+    </section-page>
+</escenic>
