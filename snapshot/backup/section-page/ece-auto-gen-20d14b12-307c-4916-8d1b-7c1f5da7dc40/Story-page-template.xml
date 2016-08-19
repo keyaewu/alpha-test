@@ -1,19 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <escenic version="2.0" xmlns="http://xmlns.escenic.com/2009/import">
     <section-page source="ece-auto-gen" sourceid="20d14b12-307c-4916-8d1b-7c1f5da7dc40" unique-name="config.default.article.type.story" name="Story page template" layout-name="config" action="remove">
-        <area name="outer"/>
-        <area name="header"/>
+        <options>
+            <field name="asideposition">
+                <value>right</value>
+            </field>
+            <field name="area_split">
+                <value>8_4</value>
+            </field>
+        </options>
+        <area name="outer">
+            <options>
+                <field name="loadingpolicy">
+                    <value>onPage</value>
+                </field>
+                <field name="htmltag">
+                    <value>div</value>
+                </field>
+            </options>
+        </area>
+        <area name="header">
+            <options>
+                <field name="loadingpolicy">
+                    <value>onPage</value>
+                </field>
+                <field name="htmltag">
+                    <value>header</value>
+                </field>
+            </options>
+        </area>
         <area name="top">
-            <content-ref source="ece-auto-gen" sourceid="c0a163a5-87e4-4bfa-ac4a-64c921d8b192">
-                <field name="title">Bread crumb</field>
+            <options>
+                <field name="loadingpolicy">
+                    <value>onPage</value>
+                </field>
+                <field name="htmltag">
+                    <value>div</value>
+                </field>
+                <field name="showtoparea">
+                    <value>true</value>
+                </field>
+            </options>
+            <group name="row" label="Row">
+                <area name="row-area">
+                    <content-ref source="ece-auto-gen" sourceid="c0a163a5-87e4-4bfa-ac4a-64c921d8b192">
+                        <field name="title">Bread crumb</field>
+                    </content-ref>
+                </area>
                 <options>
                     <field name="loadingpolicy">
                         <value>onPage</value>
                     </field>
+                    <field name="com.escenic.color">#ccccff</field>
+                    <field name="htmltag">
+                        <value>div</value>
+                    </field>
+                    <field name="referable">true</field>
                 </options>
-            </content-ref>
+            </group>
         </area>
         <area name="main">
+            <options>
+                <field name="loadingpolicy">
+                    <value>onPage</value>
+                </field>
+                <field name="htmltag">
+                    <value>section</value>
+                </field>
+            </options>
             <content-ref source="ece-auto-gen" sourceid="a9bf0e5a-cb83-42a6-ab39-f9aa3ef82325">
                 <field name="title">Gallery of related photos</field>
                 <options>
@@ -56,6 +110,11 @@
             </content-ref>
             <group name="wrapperGroup" label="Wrapper">
                 <area name="wrapperGroup-area">
+                    <options>
+                        <field name="loadingpolicy">
+                            <value>onPage</value>
+                        </field>
+                    </options>
                     <content-ref source="ece-auto-gen" sourceid="d4b2b176-aa26-4c0f-883f-696f43f6ece6">
                         <field name="title">Author</field>
                         <options>
@@ -88,6 +147,7 @@
                     <field name="htmltag">
                         <value>ul</value>
                     </field>
+                    <field name="referable">false</field>
                     <field name="customstyleclass">list-inline text-muted</field>
                 </options>
             </group>
@@ -101,6 +161,11 @@
             </content-ref>
             <group name="wrapperGroup" label="Wrapper">
                 <area name="wrapperGroup-area">
+                    <options>
+                        <field name="loadingpolicy">
+                            <value>onPage</value>
+                        </field>
+                    </options>
                     <content-ref source="ece-auto-gen" sourceid="7fd5f29a-e9b1-4a82-b35c-9bb962d03201">
                         <field name="title">Lead relations</field>
                         <options>
@@ -125,6 +190,7 @@
                     <field name="htmltag">
                         <value>section</value>
                     </field>
+                    <field name="referable">false</field>
                 </options>
             </group>
             <content-ref source="ece-auto-gen" sourceid="6363c781-ae75-4888-a691-f956ab1c373a">
@@ -145,6 +211,14 @@
             </content-ref>
         </area>
         <area name="aside">
+            <options>
+                <field name="loadingpolicy">
+                    <value>onPage</value>
+                </field>
+                <field name="htmltag">
+                    <value>aside</value>
+                </field>
+            </options>
             <content-ref source="ece-auto-gen" sourceid="10ed6aa7-40f0-4640-bd8a-4a906fe9af85">
                 <field name="title">Recommended tabs</field>
                 <options>
@@ -180,11 +254,26 @@
         </area>
         <area name="bottom">
             <options>
+                <field name="loadingpolicy">
+                    <value>onPage</value>
+                </field>
+                <field name="htmltag">
+                    <value>div</value>
+                </field>
                 <field name="showbottomarea">
                     <value>false</value>
                 </field>
             </options>
         </area>
-        <area name="footer"/>
+        <area name="footer">
+            <options>
+                <field name="loadingpolicy">
+                    <value>onPage</value>
+                </field>
+                <field name="htmltag">
+                    <value>footer</value>
+                </field>
+            </options>
+        </area>
     </section-page>
 </escenic>

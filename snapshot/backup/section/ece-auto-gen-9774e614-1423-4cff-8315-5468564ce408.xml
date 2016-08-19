@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<escenic version="2.0" xmlns="http://xmlns.escenic.com/2009/import">
+    <section unique-name="overlay.qa-site.config.default.article.type.event" source="ece-auto-gen" sourceid="9774e614-1423-4cff-8315-5468564ce408" name="&lt;qa-site&gt; event" mirror-source="false">
+        <parent source="ece-auto-gen" sourceid="14905677-1418-4dba-9ede-e5853ad02514" unique-name="config.default.article.type.event"/>
+        <unique-name>overlay.qa-site.config.default.article.type.event</unique-name>
+        <directory>overlay_qa-site_config_default_article_type_event</directory>
+        <section-layout>defaultsection</section-layout>
+        <article-layout>defaultarticle</article-layout>
+    </section>
+</escenic>

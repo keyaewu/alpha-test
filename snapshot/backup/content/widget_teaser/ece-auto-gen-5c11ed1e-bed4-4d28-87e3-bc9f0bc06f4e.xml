@@ -1,29 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <escenic version="2.0" xmlns="http://xmlns.escenic.com/2009/import">
-    <content source="ece-auto-gen" sourceid="2e81ba08-0ce2-4994-b55a-59aea0195773" type="widget_teaser" state="published">
-        <section-ref unique-name="config.oembed.article.type.picture"/>
-        <section-ref unique-name="config" home-section="true"/>
+    <content source="ece-auto-gen" sourceid="5c11ed1e-bed4-4d28-87e3-bc9f0bc06f4e" type="widget_teaser" state="published">
+        <section-ref unique-name="config.default.article.type.event" home-section="true"/>
+        <relation type="live-entry-view-relation" source="ece-auto-gen" sourceid="29357963-cc44-4628-9bdc-636bf35b76eb">
+            <field name="title">live</field>
+        </relation>
         <priority value="0"/>
-        <field name="title">teas</field>
-        <field name="datasource">{"settings":{"maxItems":"","endDate":"","publishingPeriod":"any","24HoursBlockFromNow":"no","sort":"publish_date_dec","deduplication":"yes","24HoursBlock":"no","priority":"no","startDate":""},"sourceGroups":[{"sourceDefinition":[{"sourceType":"context","selectContext":"article","fields":{},"$$hashKey":"00G"}],"applySettings":"yes","$$hashKey":"00E"}],"sourceDefinition":[],"formatVersion":"3.1"}</field>
+        <field name="title">test-teaser</field>
+        <field name="datasource">{"settings":{"maxItems":"","endDate":"","publishingPeriod":"any","24HoursBlockFromNow":"no","sort":"publish_date_dec","deduplication":"yes","24HoursBlock":"no","priority":"no","startDate":""},"sourceGroups":[{"sourceDefinition":[{"groupName":"top","sectionSelectionPolicy":"Category","sourceType":"desked","section":"sports","groupInstance":"1","fields":{},"$$hashKey":"00G","contentTypes":["event"]}],"applySettings":"yes","$$hashKey":"00E"}],"sourceDefinition":[],"formatVersion":"3.1"}</field>
         <field name="topelements">
             <value>
                 <value>title</value>
             </value>
-        </field>
-        <field name="bodyelements">
             <value>
-                <value>media</value>
-            </value>
-        </field>
-        <field name="mediacontenttypes">
-            <value>
-                <title>Picture</title>
-                <value>picture</value>
-            </value>
-            <value>
-                <title>YouTube video</title>
-                <value>embedYoutube</value>
+                <value>eventEntries</value>
             </value>
         </field>
         <field name="enableesi">false</field>
