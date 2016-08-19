@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<escenic version="2.0" xmlns="http://xmlns.escenic.com/2009/import">
-    <section-page source="ece-auto-gen" sourceid="ef85cdb0-3c4e-4f6f-b8aa-051620925941" unique-name="overlay.qa-site.config.default.article.type.story" name="&lt;qa-site&gt; Story page template" layout-name="overlay-config" action="remove">
-        <area name="overlay-config-area">
-            <group name="groupOverlay" label="Row"/>
-        </area>
-    </section-page>
-</escenic>
